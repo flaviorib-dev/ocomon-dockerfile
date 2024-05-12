@@ -28,7 +28,7 @@ A criação do banco e importação da estrutura e dos dados é feita durante a 
 
 - Clone este repositório
 ```shell
-git clone flaviorib/ocomon-dockerfile
+git clone https://github.com/flaviorib-dev/ocomon-dockerfile.git
 ```
 
 
