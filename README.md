@@ -1,11 +1,3 @@
----
-Title: Sem título
-Created_at: 2024-05-11 19:49
-father_file: 
-tags:
----
----
-
 # OcoMon Dockerfile
 
 Arquivo Dockerfile para montar uma imagem Docker com o [OcoMon](www.ocomon.com.br/site) 5.0.
