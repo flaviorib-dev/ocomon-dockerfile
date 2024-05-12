@@ -17,7 +17,7 @@ A criação do banco e importação da estrutura e dos dados é feita durante a 
 
 É necessário que você tenha o [Docker](https://www.docker.com/get-started/) instalado em seu ambiente.
 
-## Instruções
+## Instruções (use o terminal para digitar os comandos a seguir)
 
 - Clone este repositório
 ```shell
