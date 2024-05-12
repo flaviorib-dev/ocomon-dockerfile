@@ -23,7 +23,7 @@ A criação do banco e importação da estrutura e dos dados é feita durante a 
 
 ## Requisitos
 
-É necessário que você tenha o Docker instalado em seu ambiente.
+É necessário que você tenha o [Docker](https://www.docker.com/get-started/) instalado em seu ambiente.
 
 ## Instruções
 
@@ -35,7 +35,12 @@ git clone https://github.com/flaviorib-dev/ocomon-dockerfile.git
 
 - No seu ambiente, a partir do diretório onde está o `Dockerfile`, monte a imagem:
 ```shell
-docker build .
+docker build -t <ALGUM_NOME> .
+```
+
+- Confira a imagem criada:
+```shell
+docker images
 ```
 
 - Para rodar a imagem criada:
@@ -45,10 +50,13 @@ docker run -it -p 8080:80 <IMAGE_ID> /start_ocomon
 
 - Pronto! Basta acessar o sistema diretamente em seu navegar na porta 8080:
 
+
+
+## Acesso ao OcoMon
+
 ```
 http://localhost:8080
 ```
-
 Usuário: admin
 Senha: admin
 
