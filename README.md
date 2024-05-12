@@ -8,12 +8,13 @@ tags:
 
 # OcoMon Dockerfile
 
-Arquivo Dockerfile para montar uma imagem Docker com o OcoMon 5.0.
+Arquivo Dockerfile para montar uma imagem Docker com o [OcoMon](www.ocomon.com.br/site) 5.0.
 
 A imagem é montada sobre o Ubuntu 24.04 com:
 - Apache
 - PHP 8.3
 - Mysql
+- Todas as configurações de ambiente para o funcionamento adequado do OcoMon.
 
 O download do OcoMon 5.0 é realizado durante o build da imagem.
 
